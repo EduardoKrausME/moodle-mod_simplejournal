@@ -30,7 +30,7 @@ $course = get_course($id);
 require_course_login($course);
 $coursecontext = context_course::instance($course->id);
 
-$PAGE->set_url("/mod/simplejournal/index.php", ["id" => $course->id]);
+$PAGE->set_url("/mod/simplejournal/", ["id" => $course->id]);
 $PAGE->set_title(get_string("modulenameplural", "mod_simplejournal"));
 $PAGE->set_heading(format_string($course->fullname));
 

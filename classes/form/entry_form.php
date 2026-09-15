@@ -26,7 +26,7 @@ namespace mod_simplejournal\form;
 
 defined('MOODLE_INTERNAL') || die();
 
-require_once($CFG->libdir . "/formslib.php");
+require_once("{$CFG->libdir}/formslib.php");
 
 /**
  * Class entry_form.

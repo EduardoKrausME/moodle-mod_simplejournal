@@ -23,7 +23,7 @@
  */
 
 require_once(__DIR__ . "/../../config.php");
-require_once($CFG->libdir . "/completionlib.php");
+require_once("{$CFG->libdir}/completionlib.php");
 
 use mod_simplejournal\entry_manager;
 use mod_simplejournal\form\entry_form;

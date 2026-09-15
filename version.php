@@ -24,8 +24,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2026091400;
-$plugin->release = "1.1.0";
+$plugin->version = 2026091500;
+$plugin->release = "1.1.1";
 $plugin->component = "mod_simplejournal";
 $plugin->requires = 2024100700;
 $plugin->maturity = MATURITY_STABLE;
